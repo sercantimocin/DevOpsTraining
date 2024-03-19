@@ -12,7 +12,7 @@ namespace StudentAPI.UnitTests
     public class StudentControllerTest
     {
         [Fact]
-        public void GetAllStudentsAsync()
+        public void GetAllStudents()
         {
             var student = new Student() { Id = 1, Name = "John" };
 
