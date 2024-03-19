@@ -27,5 +27,11 @@ namespace StudentAPI.UnitTests
             Assert.Single(result);
             Assert.Equal(student,result.First());
         }
+
+        [Fact]
+        public void FailingTestForActionsTest()
+        {
+            Assert.True(false);
+        }
     }
 }
